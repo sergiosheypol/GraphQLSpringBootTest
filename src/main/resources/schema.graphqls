@@ -1,0 +1,8 @@
+type Vehicle {
+    id: ID!,
+    type: String,
+    modelCode: String,
+}
+type Query {
+    vehicle(id: ID):Vehicle
+}
